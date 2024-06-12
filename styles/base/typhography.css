@@ -1,0 +1,50 @@
+body{
+    font-family: var(--font-family);
+    font-size: var(--font-body);
+    color: var(--base-secondary-color-2);
+}
+
+h1{
+    font-size: var(--font-h1-mobile);
+    font-weight: var(--font-weight-700);
+}
+
+@media(min-width:768px){
+    h1{
+        font-size: var(--font-h1-desktop);
+    }
+}
+
+h2,
+h3{
+    font-weight: var(--font-weight-400);
+}
+
+h2{
+    font-size: var(--font-h2-mobile);
+}
+
+h3{
+    font-size: var(--font-h3);
+}
+
+@media(min-width:768px){
+    h2{
+        font-size: var(--font-h2-desktop);
+    }
+}
+
+button{
+    font-size: var(--font-button);
+}
+
+.nav-menu-item{
+    font-size: var(--font-nav-menu);
+    color: var(--base-secondary-color-1);
+}
+
+.tag{
+    font-size: var(--font-article-tag);
+    color: var(--base-secondary-color-2-transparent-80);
+}
+
