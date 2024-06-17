@@ -1,0 +1,37 @@
+.article{
+    margin: 0 0 38px;
+}
+
+.article_picture{
+    margin: 0 0 10px;   
+}
+
+.article_tags,
+.article_actions{
+    display: flex;
+    justify-content: center;
+}
+.article_tags{
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.article_actions{
+    gap: 16px;
+}
+
+.article_details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;                                
+}
+
+.article_details h3,
+.article_details p{
+    text-align: center;
+}
+
+.article_details p{
+    line-height: 1.5;
+    margin: 0 0 10px;
+}

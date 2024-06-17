@@ -1,0 +1,12 @@
+.article_tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:24px;
+    width: 94px; 
+    font-size: var(--font-article-tag);
+    color: var(--base-secondary-color-2-transparent-80);
+    background-color: var(--base-primary-color-4);
+    margin-bottom: 10px;
+}
+

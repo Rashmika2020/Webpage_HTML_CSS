@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('../styles/utilities/normalize.css');
-@import url('../styles/base/var.css');
-@import url('../styles/base/typhography.css');
+
+/* utilities style imports */
+@import url('./utilities/normalize.css');
+@import url('./utilities/global.css');
+
+/* token styles imports */
+@import url('./design-system/token/var.css');
+
+/* atoms styles imports */
+@import url('./design-system/atom/typhography.css');
+@import url('./design-system/atom/article-tag.css');
+@import url('./design-system/atom/button.css');
+@import url('./design-system/atom/picture.css');
+
+/* molecules styles imports */
+@import url('./design-system/molecules/article.css');
