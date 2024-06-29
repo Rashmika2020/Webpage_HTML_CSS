@@ -12,6 +12,17 @@
 @import url('./design-system/atom/article-tag.css');
 @import url('./design-system/atom/button.css');
 @import url('./design-system/atom/picture.css');
+@import url('./design-system/atom/logo.css');
+@import url('./design-system/atom/icons.css');
+@import url('./design-system/atom/menu-item.css');
 
 /* molecules styles imports */
 @import url('./design-system/molecules/article.css');
+@import url('./design-system/molecules/menu.css');
+
+/* organisms styles imports */
+@import url('./design-system/organisms/article-section.css');
+@import url('./design-system/organisms/header.css');
+
+/* layouts styles imports */
+@import url('./design-system/layouts/containers.css');

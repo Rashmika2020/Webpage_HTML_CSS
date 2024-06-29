@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 48px;
+    background: var(--base-secondary-color-2-transparent-69);
+    padding: 0 16.5px;
+}
+
+@media(min-width:768px){
+    .header .icon_humberg{
+        display: none;
+    }   
+}
+

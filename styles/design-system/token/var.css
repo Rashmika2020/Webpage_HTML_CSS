@@ -1,10 +1,11 @@
 :root{
-    /* COLCOR PALLETE */
+    /* COLOR PALLETE */
     --base-primary-color:#6A0066;
-    --base-primary-color-1:#fff;
-    --base-primary-color-2:#000;
-    --base-primary-color-3:#D9D9D9;
-    --base-primary-color-4:#E1E1E1;
+
+    --base-secondary-color-1:#fff;
+    --base-secondary-color-2:#000;
+    --base-secondary-color-3:#D9D9D9;
+    --base-secondary-color-4:#E1E1E1;
 
     --base-secondary-color-2-transparent-80:rgba(0,0,0,0.8);
     --base-secondary-color-2-transparent-69:rgba(0,0,0,0.69);

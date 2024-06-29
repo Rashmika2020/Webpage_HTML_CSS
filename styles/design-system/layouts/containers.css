@@ -1,0 +1,46 @@
+
+/* for mobile */
+.article-section_container,
+.article-section_container-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-section_container{
+    gap: 16px;
+
+}
+
+.article-section_container-main{
+    margin-bottom: 40px;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/* for desktop */
+@media(min-width:768px){
+
+    .article-section_container{
+        gap: 66px;
+        max-width: 1160px;
+        margin: 0 auto;
+}
+    .article-section_container-main{
+        flex-direction: row-reverse;
+        gap: 88px;
+        max-width: 1266px;
+        margin: 88px auto;
+    }
+
+    .header_container{
+        max-width: 1230px;
+        margin: 0 auto;
+    }
+}
+
